@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+    margin: auto 0;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(17, 0, 255);
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding-top: 100px;
+    color: #ddd;
+    
+
+}
+
+th, td{
+    
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+
+}
+
+.btn-edit {
+    background-color:rgb(0, 255, 47);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+}
+.btn-delete{
+    margin: 5px;
+    background-color:red;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}    
+
+
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.search{
+    background-color: rgb(50, 48, 48);
+    padding: 10px 10px;
+    color: #ddd;
+}
+
+.submit{
+    background-color: rgb(50, 48, 48);
+    color: white;
+    padding: 10px 10px;
+}
+
+
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
